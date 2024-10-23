@@ -202,8 +202,8 @@ func (rp requestParser) Parse(
 		}
 		if formBody {
 			body.Value.Content = openapi3.Content{
-				"multipart/form-data":               mediaType,
-				"application/x-www-form-urlencoded": mediaType,
+				// TODO: add application/x-www-form-urlencoded back when form doesn't have file
+				"multipart/form-data": mediaType,
 			}
 		} else {
 			body.Value.Content = openapi3.Content{
