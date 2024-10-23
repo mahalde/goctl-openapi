@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/jayvynl/goctl-openapi/constant"
+	"github.com/mahalde/goctl-openapi/constant"
 	"github.com/pkg/errors"
 	"github.com/zeromicro/go-zero/tools/goctl/api/spec"
 )

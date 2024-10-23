@@ -1,4 +1,4 @@
-module github.com/jayvynl/goctl-openapi
+module github.com/mahalde/goctl-openapi
 
 go 1.20
 
